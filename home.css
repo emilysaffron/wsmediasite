@@ -1,0 +1,46 @@
+:root {
+    --bodynorm: #000000;
+    --bodyhover: #b80000;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.options{
+ padding: 100px;
+ display: flex;
+ flex-direction: row; 
+ justify-content: space-between;
+}
+
+.option .option__info{
+    padding-left: 100px;
+}
+
+.option .image{
+   display: flex;
+   align-content: space-around;
+}
+
+
+
+.content a {
+    color: var(--bodynorm);
+}
+
+.content a:visited {
+    color: var(--bodynorm);
+}
+
+.content a:hover {
+    color: var(--bodyhover);
+}
+
+
+

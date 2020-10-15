@@ -1,0 +1,40 @@
+:root {
+    --main: #b80000;
+    --bannerhover: #000000;
+    --bannernorm: #fdfdfd;
+}
+
+.nav a , .footer a, .container a{
+    color: var(--bannernorm);
+}
+
+.nav a:visited, .footer a:visited , .container a:visited{
+    color: var(--bannernorm);
+}
+
+.nav a:hover, .footer a:hover {
+    color: var(--bannerhover);
+}
+
+.nav, .footer {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main);
+    height: 100px;
+}
+
+.container a:hover{
+    color:var(--main)
+}
+
+.container{
+    background-color: #222222;
+    height: 150px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
