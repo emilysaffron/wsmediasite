@@ -1,0 +1,19 @@
+.links{
+    padding: 50px;
+   
+}
+
+.row, .row2{
+    display: flex;
+    justify-content: center;
+}
+
+.row img, .row2 img{
+    margin: 20px;
+    
+}
+
+ 
+
+
+  
