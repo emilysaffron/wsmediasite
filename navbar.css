@@ -1,40 +1,13 @@
-:root {
-    --main: #b80000;
-    --bannerhover: #000000;
-    --bannernorm: #fdfdfd;
-}
+:root{--main:#b80000;--bannerhover:#000000;--bannernorm:#fdfdfd}
 
-.nav a , .footer a, .container a{
-    color: var(--bannernorm);
-}
+.container a,.footer a,.nav a{color:var(--bannernorm)}
+.container a:visited,.footer a:visited,.nav a:visited{color:var(--bannernorm)}
 
-.nav a:visited, .footer a:visited , .container a:visited{
-    color: var(--bannernorm);
-}
+.footer a:hover,.nav a:hover{color:var(--bannerhover)}
+.footer,.nav{padding:16px;display:flex;justify-content:space-between;align-items:center;background-color:var(--main);height:3.25rem}
 
-.nav a:hover, .footer a:hover {
-    color: var(--bannerhover);
-}
+.second hr{background-color:#fff;width:100%;border:none;height:1px}
+.second{display:flex;background-color:var(--main);height:3rem}
 
-.nav, .footer {
-    padding: 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--main);
-    height: 100px;
-}
-
-.container a:hover{
-    color:var(--main)
-}
-
-.container{
-    background-color: #222222;
-    height: 150px;
-    padding: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
+.container a:hover{color:var(--main)}
+.container{background-color:#222;height:150px;padding:16px;display:flex;align-items:center;justify-content:center}
