@@ -1,23 +1,6 @@
-.row, .row2,.captions,.captions2 {
-    display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
-}
+.captions,.captions2,.row,.row2{display:flex;justify-content:center;justify-content:space-evenly}
+.row img,.row2 img{margin:50px}
 
-.row img, .row2 img {
-    margin: 50px;
-}
-
-.captions,.captions2{
-    padding-left: 110px;
-    padding-right: 110px;
-}
-
-.cqptions.end1{
-    background-color: red;
-    
-}
-.captions hr{
-    border: none;
-}
-    
+.captions,.captions2{padding-left:110px;padding-right:110px}
+.cqptions.end1{background-color:red}
+.captions hr{border:none}
