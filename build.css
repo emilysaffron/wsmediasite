@@ -1,6 +1,12 @@
-.captions,.captions2,.row,.row2{display:flex;justify-content:center;justify-content:space-evenly}
-.row img,.row2 img{margin:50px}
+.content{display:grid;grid-template-rows:repeat(6,max-content)}
+.bio,.intro{display:flex;justify-content:center}
+.intro{font-size:60px}
+.bio{padding-bottom:30px}
 
-.captions,.captions2{padding-left:110px;padding-right:110px}
-.cqptions.end1{background-color:red}
-.captions hr{border:none}
+.caption1,.firstrow{display:grid;grid-template-rows:max-content;grid-template-columns:repeat(3,33.3%)}
+.firstrow img{margin-left:33.3px}
+.caption1{display:grid;justify-content:center;text-align:center}
+
+.caption2,.secondrow{display:grid;grid-template-rows:max-content;grid-template-columns:repeat(2,50%)}
+.secondrow img{display:flex;justify-content:space-evenly;padding-left:20%;margin-top:100px}
+.caption2{text-align:center}
