@@ -8,6 +8,7 @@ body {
 a {
   font-size: 16px;
   text-decoration: none;
+  transition: color 0.4s;
 }
 
 .content a {
