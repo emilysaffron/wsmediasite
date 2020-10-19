@@ -1,13 +1,54 @@
-:root{--main:#b80000;--bannerhover:#000000;--bannernorm:#fdfdfd}
+:root {
+  --main: #b80000;
+  --bannerhover: #000000;
+  --bannernorm: #fdfdfd;
+}
 
-.container a,.footer a,.nav a{color:var(--bannernorm)}
-.container a:visited,.footer a:visited,.nav a:visited{color:var(--bannernorm)}
+.container a,
+.footer a,
+.nav a {
+  color: var(--bannernorm);
+}
+.container a:visited,
+.footer a:visited,
+.nav a:visited {
+  color: var(--bannernorm);
+}
 
-.footer a:hover,.nav a:hover{color:var(--bannerhover)}
-.footer,.nav{padding:16px;display:flex;justify-content:space-between;align-items:center;background-color:var(--main);height:3.25rem}
+.footer a:hover,
+.nav a:hover {
+  color: var(--bannerhover);
+}
+.footer,
+.nav {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--main);
+  height: 3.25rem;
+}
 
-.second hr{background-color:#fff;width:100%;border:none;height:1px}
-.second{display:flex;background-color:var(--main);height:3rem}
+.second hr {
+  background-color: #fff;
+  width: 100%;
+  border: none;
+  height: 1px;
+}
+.second {
+  display: flex;
+  background-color: var(--main);
+  height: 3rem;
+}
 
-.container a:hover{color:var(--main)}
-.container{background-color:#222;height:150px;padding:16px;display:flex;align-items:center;justify-content:center}
+.container a:hover {
+  color: var(--main);
+}
+.container {
+  background-color: #222;
+  height: 150px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

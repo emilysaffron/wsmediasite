@@ -1,6 +1,24 @@
+.options {
+  padding: 100px;
+  display: flex;
+}
 
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
 
-.options{padding:100px;display:flex;flex-direction:column;align-items:space-between;align-items:center}
-.option .option__info{padding-left:100px}
-.option .image{display:flex;align-content:space-around}
+img {
+  width: 80%;
+}
 
+@media screen and (max-width: 720px) {
+  .options {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

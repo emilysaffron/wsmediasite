@@ -1,5 +1,30 @@
-.content{padding:50px;display:flex;flex-direction:column}
+.content {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-h1,h2,p{padding:10px;padding-left:350px;width:50%;display:flex;justify-content:center;text-align:center;flex-wrap:wrap}
-h1{font-size:60px;text-decoration:dotted;text-decoration-color:#000}
-hr{border:none;color:#000;background-color:#000;border:solid;border-width:0;height:1px;width:25%;margin:0 auto}
+h1,
+h2,
+p {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+h1 {
+  font-size: 60px;
+  text-decoration: dotted;
+  text-decoration-color: #000;
+}
+hr {
+  border: none;
+  color: #000;
+  background-color: #000;
+  border: solid;
+  border-width: 0;
+  height: 1px;
+  width: 25%;
+  margin: 0 auto;
+}
