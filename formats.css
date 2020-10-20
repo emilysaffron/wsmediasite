@@ -8,7 +8,7 @@ body {
 a {
   font-size: 16px;
   text-decoration: none;
-  transition: color 0.4s;
+  transition: all 0.4s;
 }
 
 .content a {
@@ -19,4 +19,5 @@ a {
 }
 .content a:hover {
   color: var(--bodyhover);
+  opacity: 0.9;
 }

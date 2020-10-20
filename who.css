@@ -13,7 +13,7 @@
 
 h2 {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 .content img {
@@ -21,7 +21,7 @@ h2 {
   margin-top: 50px;
   display: flex;
   align-self: center;
-  box-shadow: 1px -5px 2px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px -4px 4px 0px rgba(0, 0, 0, 0.05);
   max-width: min-content;
   border-radius: 50%;
 }
@@ -31,6 +31,29 @@ h2 {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  position: relative;
+}
+
+.description {
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.name:hover .description {
+  visibility: visible;
+  opacity: 1;
+}
+
+.name:hover img {
+  transition: 0.2s;
+  opacity: 0.3;
 }
 
 .managers {
